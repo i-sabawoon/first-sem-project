@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#head {
+  white-space: nowrap;
+  margin: 115px 0px 20px 0px;
+  font-size: 3rem;
+  color: rgb(194, 187, 187);
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+.container {
+  backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgb(27, 27, 27);
+  border-radius: 60px;
+  padding: 111px 60px;
+  box-shadow: 1px 1px 6px black;
+}
+#display {
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: bold;
+  color:rgb(194, 187, 187) ;
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 24px;
+}
+#btns button {
+  border: none;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 6px 26px;
+  margin: 4px;
+  border-radius: 20px;
+  cursor: pointer;
+  min-width: 120px;
+  color:rgb(237, 233, 233);
+  box-shadow: 3px 3px 3px black;
+}
+#start {
+  background-color: rgb(45 136 45);
+}
+#start:hover {
+  background-color: rgb(43, 97, 43);
+  transition: 0.5s ease-in-out;
+}
+#stop {
+  background-color: #bb2e2e;
+}
+#stop:hover {
+  background-color: #8a2929;
+  transition: 0.5s ease-in-out;
+}
+#reset {
+  background-color: rgb(208, 178, 9);
+}
+#reset:hover {
+  background-color: rgb(161, 138, 9);
+  transition: 0.5s ease-in-out;
+}
