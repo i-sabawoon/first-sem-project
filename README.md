@@ -3,7 +3,8 @@
 A simple and responsive digital stopwatch built using HTML, CSS, and JavaScript. The application allows users to start, stop, and reset the timer with an easy-to-use interface.
 
  🚀 Live Demo
-first-sem-project.vercel.app
+ 
+https://first-sem-project-n4d0rqts3-i-sabawoons-projects.vercel.app
 
  ✨ Features
 - Start the stopwatch
